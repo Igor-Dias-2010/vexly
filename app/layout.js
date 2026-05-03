@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Vexly",
-  description: "Encontre DEVs ao redor do mundo.",
+  description: "Connect. Code. Create.",
 };
 
 export default function RootLayout({ children }) {
