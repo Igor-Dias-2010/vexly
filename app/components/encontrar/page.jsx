@@ -1,5 +1,5 @@
-import NavBar from "../navbar"
-import TitleBar from "../titlebar"
+import NavBar from "../../navbar"
+import TitleBar from "../../titlebar"
 
 export default function Find() {
     return (

@@ -1,20 +1,74 @@
-'use client'
+"use client";
 
-import { MessagesSquare, UserPlus, CircleUserRound, House, Search } from "lucide-react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
+import {
+    MessagesSquare,
+    UserPlus,
+    CircleUserRound,
+    House,
+    Search,
+    Settings,
+} from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function NavBar() {
-    const pathname = usePathname()
+    const pathname = usePathname();
     return (
         <div className="navbar">
             <nav>
-                <Link className={pathname === '/' ? 'ativo' : 'icons'} href={'/'}><House size={25} /></Link>
-                <Link className={pathname === '/chat' ? 'ativo' : 'icons'} href={'/chat'}><MessagesSquare size={25} /></Link>
-                <Link className={pathname === '/procurar' ? 'ativo' : 'icons'} href={'/procurar'}><Search /></Link>
-                <Link className={pathname === '/encontrar' ? 'ativo' : 'icons'} href={'/encontrar'}><UserPlus size={25} /></Link>
-                <Link className={pathname === '/perfil' ? 'ativo' : 'icons'} href={'/perfil'}><CircleUserRound size={25} /></Link>
+                <Link
+                    className={pathname === "/" ? "ativo" : "icons"}
+                    href={"/"}
+                    title="Início"
+                >
+                    <House size={25} />
+                </Link>
+                <Link
+                    className={
+                        pathname === "/components/chat" ? "ativo" : "icons"
+                    }
+                    href={"/components/chat"}
+                    title="Chats"
+                >
+                    <MessagesSquare size={25} />
+                </Link>
+                <Link
+                    className={
+                        pathname === "/components/procurar" ? "ativo" : "icons"
+                    }
+                    href={"/components/procurar"}
+                    title="Procurar"
+                >
+                    <Search size={25} />
+                </Link>
+                <Link
+                    className={
+                        pathname === "/components/encontrar" ? "ativo" : "icons"
+                    }
+                    href={"/components/encontrar"}
+                    title="Encontrar usuário"
+                >
+                    <UserPlus size={25} />
+                </Link>
+                <Link
+                    className={
+                        pathname === "/components/perfil" ? "ativo" : "icons"
+                    }
+                    href={"/components/perfil"}
+                    title="Perfil"
+                >
+                    <CircleUserRound size={25} />
+                </Link>
+                <Link
+                    className={
+                        pathname === "/components/settings" ? "ativo" : "icons"
+                    }
+                    href={"/components/settings"}
+                    title="Configurações"
+                >
+                    <Settings size={25} />
+                </Link>
             </nav>
         </div>
-    )
+    );
 }
