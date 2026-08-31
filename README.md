@@ -1,11 +1,11 @@
-![React](https://img.shields.io/badge/React-20232A?style=social&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=social&logo=nextdotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=social&logo=javascript&logoColor=black)
-![CSS](https://img.shields.io/badge/CSS-663399?style=social&logo=css&logoColor=white)
-![Lucide](https://img.shields.io/badge/Lucide-F56565?style=social&logo=lucide&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=social&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=social&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=social&logo=github&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![CSS](https://img.shields.io/badge/CSS-663399?style=flat&logo=css&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide-F56565?style=flat&logo=lucide&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
 # Vexly
 
