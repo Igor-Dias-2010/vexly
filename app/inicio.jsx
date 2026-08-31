@@ -7,7 +7,7 @@ export default function Home(){
     return(
         <div>
             <TitleBar />
-            <h1>Vexly</h1>
+            <h1>Início</h1>
             <NavBar />
         </div>
     )
