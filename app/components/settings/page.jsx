@@ -1,6 +1,6 @@
 "use client";
 
-import { Trash2, Plus } from "lucide-react";
+import { Trash2, Plus, Lock } from "lucide-react";
 import { useEffect, useState } from "react";
 import NavBar from "../../navbar";
 import TitleBar from "../../titlebar";
@@ -20,6 +20,7 @@ export default function Settings() {
             <div className="configs">
                 <label htmlFor="temas">Selecione um tema</label>
                 <select
+                    title="Selecione um tema"
                     name="temas"
                     id="temas"
                     value={tema}
@@ -32,8 +33,18 @@ export default function Settings() {
                 </select>
                 <section className="danger">
                     <h3>Zona perigosa</h3>
-                    <button><Plus size={20}/>Adicionar conta</button>
-                    <button><Trash2 size={20}/>Deletar conta</button>
+                    <button title="Bloquear app">
+                        <Lock size={20} />
+                        Bloquear app
+                    </button>
+                    <button title="Adicionar conta">
+                        <Plus size={20} />
+                        Adicionar conta
+                    </button>
+                    <button title="Deletar conta">
+                        <Trash2 size={20} />
+                        Deletar conta
+                    </button>
                 </section>
             </div>
 

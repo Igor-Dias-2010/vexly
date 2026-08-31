@@ -28,7 +28,7 @@ export default function NavBar() {
                         pathname === "/components/chat" ? "ativo" : "icons"
                     }
                     href={"/components/chat"}
-                    title="Conversas"
+                    title="Mensagens"
                 >
                     <MessagesSquare size={25} />
                 </Link>

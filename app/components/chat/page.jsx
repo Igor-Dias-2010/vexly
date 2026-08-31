@@ -5,7 +5,7 @@ export default function Chat() {
     return (
         <div>
             <TitleBar />
-            <h1>Chat</h1>
+            <h1>Mensagens</h1>
             <NavBar />
         </div>
     )

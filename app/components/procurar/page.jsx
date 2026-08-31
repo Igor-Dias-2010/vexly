@@ -6,7 +6,7 @@ export default function Procurar(){
         <div>
             <TitleBar />
             <h1>Pesquisar</h1>
-            <input type="search" placeholder="Pesquisar" />
+            <input type="search" placeholder="Pesquisar" title="Pesquisar" />
             <NavBar />
         </div>
     )
