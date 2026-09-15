@@ -197,14 +197,16 @@ input {
 
 .text-field {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
     flex-direction: column;
-    margin-block: 10px;
+    margin-block: 15px;
 }
 
+
 .auth button {
-    margin-block: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .auth-container {
