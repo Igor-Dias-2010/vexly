@@ -19,6 +19,12 @@ body::selection {
     color: rgb(31, 31, 31);
 }
 button {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(0, 255, 0);
+    border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -51,8 +57,7 @@ h1 {
     margin-bottom: 30px;
 }
 a {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-inline: 10px;
     color: white;
 }
 
@@ -130,9 +135,9 @@ body.light-theme {
     background-color: rgb(255, 183, 183);
     border: 2px solid rgba(255, 78, 78, 0.6);
     border-radius: 5px;
-    width: 130px;
+    width: 145px;
     height: 30px;
-    padding-inline: 5px;
+    padding-inline: 10px;
     margin-block: 5px;
 }
 .danger button:first-of-type {
@@ -141,6 +146,9 @@ body.light-theme {
 .danger::selection {
     background-color: red;
 }
+.danger a {
+    text-decoration: none;
+}
 input {
     background-color: rgb(50, 50, 50);
     border: 1px solid rgb(0, 255, 0);
@@ -148,4 +156,15 @@ input {
     height: 30px;
     padding-inline: 10px;
     color: white;
+}
+.login-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: rgb(50, 50, 50);
+}
+.login-signup a {
+    color: rgb(0, 255, 0);
 }

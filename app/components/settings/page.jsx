@@ -4,6 +4,7 @@ import { Trash2, Plus, Lock } from "lucide-react";
 import { useEffect, useState } from "react";
 import NavBar from "../../navbar";
 import TitleBar from "../../titlebar";
+import Link from "next/link";
 
 export default function Settings() {
     const [tema, setTema] = useState("dark-theme");
@@ -33,14 +34,18 @@ export default function Settings() {
                 </select>
                 <section className="danger">
                     <h3>Zona perigosa</h3>
-                    <button title="Bloquear app">
-                        <Lock size={20} />
-                        Bloquear app
-                    </button>
-                    <button title="Adicionar conta">
-                        <Plus size={20} />
-                        Adicionar conta
-                    </button>
+                    <Link href="/components/login">
+                        <button title="Bloquear app">
+                            <Lock size={20} />
+                            Bloquear app
+                        </button>
+                    </Link>
+                    <Link href="/components/signup">
+                        <button title="Adicionar conta">
+                            <Plus size={20} />
+                            Adicionar conta
+                        </button>
+                    </Link>
                     <button title="Deletar conta">
                         <Trash2 size={20} />
                         Deletar conta
