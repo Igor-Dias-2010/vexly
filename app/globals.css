@@ -18,6 +18,7 @@ body::selection {
     background-color: rgb(0, 255, 0);
     color: rgb(31, 31, 31);
 }
+
 button {
     background-color: rgb(50, 50, 50);
     color: white;
@@ -28,12 +29,15 @@ button {
     cursor: pointer;
     transition: 0.3s;
 }
+
 button:hover {
     transform: scale(1.05);
 }
+
 button:active {
     transform: scale(1);
 }
+
 .navbar {
     background-color: rgb(35, 35, 35);
     width: 100%;
@@ -53,9 +57,11 @@ button:active {
     align-items: center;
     height: 50px;
 }
+
 h1 {
     margin-bottom: 30px;
 }
+
 a {
     margin-inline: 10px;
     color: white;
@@ -78,9 +84,11 @@ a {
     border-radius: 10px;
     border: 2px solid rgb(0, 255, 0);
 }
+
 input {
     padding-left: 5px;
 }
+
 img {
     user-select: none;
     -webkit-user-drag: none;
@@ -88,6 +96,7 @@ img {
     -moz-user-select: none;
     -ms-user-select: none;
 }
+
 .configs {
     display: flex;
     align-items: center;
@@ -99,6 +108,7 @@ img {
     padding-block: 10px;
     margin: 20px auto;
 }
+
 .temas {
     background-color: rgb(35, 35, 35);
     color: white;
@@ -108,14 +118,17 @@ img {
     border: 2px solid rgb(55, 55, 55);
     border-radius: 5px;
 }
+
 label {
     color: white;
     margin-bottom: 5px;
 }
+
 body.light-theme {
     background: #ffffff;
     color: #111;
 }
+
 .danger {
     display: flex;
     align-items: center;
@@ -128,6 +141,7 @@ body.light-theme {
     padding-inline: 50px;
     padding-block: 10px;
 }
+
 .danger button {
     color: black;
     display: flex;
@@ -141,15 +155,19 @@ body.light-theme {
     padding-inline: 10px;
     margin-block: 5px;
 }
+
 .danger button:first-of-type {
     margin-top: 15px;
 }
+
 .danger::selection {
     background-color: red;
 }
+
 .danger a {
     text-decoration: none;
 }
+
 input {
     background-color: rgb(50, 50, 50);
     border: 1px solid rgb(0, 255, 0);
@@ -158,14 +176,40 @@ input {
     padding-inline: 10px;
     color: white;
 }
-.login-signup {
+
+.auth {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(75, 75, 75);
+    border: 2px solid rgb(60, 60, 60);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    padding-block: 25px;
+    box-shadow: 0 0 20px black;
 }
-.login-signup a {
+
+.auth a {
     color: rgb(0, 255, 0);
+}
+
+.text-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-block: 10px;
+}
+
+.auth button {
+    margin-block: 25px;
+}
+
+.auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
