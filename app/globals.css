@@ -129,6 +129,7 @@ body.light-theme {
     padding-block: 10px;
 }
 .danger button {
+    color: black;
     display: flex;
     align-items: center;
     gap: 4px;
