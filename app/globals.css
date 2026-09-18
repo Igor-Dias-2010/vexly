@@ -183,12 +183,12 @@ input {
     justify-content: center;
     flex-direction: column;
     background-color: rgb(75, 75, 75);
-    border: 2px solid rgb(60, 60, 60);
+    border: none;
     border-radius: 10px;
     width: 100%;
     max-width: 400px;
     padding-block: 25px;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 30px rgb(75, 75, 75);
 }
 
 .auth a {
